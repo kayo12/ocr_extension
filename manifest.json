@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Texto para imagem",
+    "description": "Primeira extensão",
+    "version": "1.0",
+    "action": {
+      "default_popup": "index.html"
+    },
+    "background": {
+        "service_worker": "content.js" 
+    },
+    "permissions": [
+        "activeTab",
+        "scripting" 
+    ]
+}
